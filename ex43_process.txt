@@ -1,0 +1,31 @@
+draw about problem
+extract key concepts and research
+create class hierarchy and object map for concepts
+code classes and tests to run
+repeat and refine
+
+nouns, verbs => classes, objects, functions
+
+"Gothons from Planet Percal #25"
+
+Death, player dies
+Central Corridor, starting point with Gothon to defeat with joke
+Laser Weapon Armory, neutron bomb to blow up ship before getting on escape pod, w/ keypad to guess number
+The Bridge, battle scene to place bomb
+Escape Pod, escape after guessing correct escape pod
+
+list of nouns,
+Alien, Player, Ship, Maze, Room, Scene, Gothon, Escape Pod, Planet, Map, Engine, Death, Central Corridor, Laser Weapon Armory, The Bridge
+
+- Map
+	*next_scene
+	*opening_scene
+- Engine
+	*play
+- Scene
+	*enter
+	- Death
+	- Central Corridor
+	- Laser Weapon Armory
+	- The Bridge
+	- Escape Pod
